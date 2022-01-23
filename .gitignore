@@ -1,0 +1,11 @@
+*.o
+\#*#
+*#
+.#*
+.*~
+*~
+autoload/plugged/
+.netrwhist
+Gemfile.lock
+node_modules
+fishd.*
