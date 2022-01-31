@@ -1,7 +1,6 @@
 " set leader key
 let g:mapleader = "\<Space>"
 
-syntax on                           " Enables syntax highlighing
 filetype indent plugin on
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
@@ -35,6 +34,7 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 "set autochdir                           " Your working directory will always be the same as your working directory
 set termguicolors
 set completeopt=menu,menuone,noselect
+set modifiable
 
 " Always show tabs
 set showtabline=2

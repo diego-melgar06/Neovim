@@ -17,11 +17,11 @@ nnoremap <leader>e :NvimTreeOpen<CR>
 nnoremap <leader>;r :NvimTreeRefresh<CR>
 nnoremap <leader>;n :NvimTreeFindFile<CR>e
 
+"Prettier
+nnoremap <leader>p :Prettier<CR>
+
 " Find files using Telescope command-line sugar.
-nnoremap <leader>ff <cmd>Telescope find_files<cr>
-nnoremap <leader>fg <cmd>Telescope live_grep<cr>
-nnoremap <leader>fb <cmd>Telescope buffers<cr>
-nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+nnoremap <Leader>b :CtrlPMixed<CR>
 
 " Alternate way to save
 nnoremap <leader>w :w<CR>
