@@ -1,0 +1,30 @@
+vim.cmd('colorscheme onedark')
+--[[
+vim.g.everforest_diagnostic_line_highlight = 1
+vim.fn.sing_define({
+				{
+								name='DiagnosticSignError',
+								text='E',
+								texthl='navarasu/onedark.nvim',
+								linehl='ErrorLine'
+				},
+{
+								name='DiagnosticSignWarn',
+								text='W',
+								texthl='DiagnosticSignWarn',
+								linehl='ErrorLine'
+				},
+{
+								name='DiagnosticSignInfo',
+								text='I',
+								texthl='DiagnosticSignError',
+								linehl='ErrorLine'
+				},
+{
+								name='DiagnosticSignHint',
+								text='H',
+								texthl='DiagnosticSignHint',
+								linehl='HintLine'
+				}
+})
+]]--
