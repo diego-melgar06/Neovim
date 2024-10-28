@@ -43,6 +43,12 @@ map('n', '<C-j>', '<C-w>j')
 map('n', '<C-k>', '<C-w>k')
 map('n', '<C-l>', '<C-w>l')
 
+-- Mapea Alt + j para bajar 30 líneas
+vim.api.nvim_set_keymap('n', '<C-j>', '30j', { noremap = true, silent = true })
+
+-- Mapea Alt + k para subir 30 líneas
+vim.api.nvim_set_keymap('n', '<C-k>', '30k', { noremap = true, silent = true })
+
 -- Reload configuration without restart nvim
 map('n', '<leader>r', ':so %<CR>')
 

@@ -14,7 +14,7 @@ opt.hlsearch = true
 opt.incsearch = true
 
 opt.mouse = 'a'
-opt.clipboard:append('unnamedplus')
+opt.clipboard = "unnamedplus"
 
 opt.tabstop = 2
 opt.softtabstop = 2

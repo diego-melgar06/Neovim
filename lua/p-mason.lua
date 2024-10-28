@@ -2,8 +2,9 @@ require("mason").setup()
 require("mason-lspconfig").setup({
   ensure_installed = {
     "lua_ls",
-    "tsserver",
-    "clangd"
+    "jdtls",
+    "clangd",
+    "typescript-language-server"
   },
 
   automatic_installation = true,
